@@ -163,7 +163,7 @@ body {
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
-  color: #a8a8a8;
+  color: #000;
   margin-bottom: 0px;
 }
 
@@ -223,6 +223,7 @@ body {
 .in-the-process-of-studying {
   font-style: italic;
   color: #9596ac;
+  font-size: 14px;
 }
 
 .aim {
