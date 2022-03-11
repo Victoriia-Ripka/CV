@@ -169,7 +169,6 @@ body {
 
 .sidebar-section {
   background-color: #a9bf87;
-  //background-color: #1e2939;
   width: 370px;
   padding: 40px;
 }
@@ -200,7 +199,7 @@ body {
 .contacts-section-link {
   color: #38381c;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 14px;
   line-height: 24px;
 }
