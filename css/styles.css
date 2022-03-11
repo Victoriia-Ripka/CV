@@ -214,7 +214,7 @@ body {
 
 .li-skills-item-text {
   font-style: normal;
-  font-weight: normal;
+  font-weight: bolder;
   font-size: 14px;
   line-height: 24px;
   color: #38381c;
@@ -222,6 +222,7 @@ body {
 
 .in-the-process-of-studying {
   font-style: italic;
+  font-weight: bolder;
   color: #808f58;
   font-size: 14px;
 }
