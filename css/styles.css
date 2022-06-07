@@ -14,6 +14,7 @@ body {
 
 .main-section {
   padding: 100px 90px 100px 90px;
+  background-image: linear-gradient( #fff 20%, #a9bf87);
 }
 
 .about-me {
@@ -173,6 +174,19 @@ body {
   padding: 40px;
 }
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 .contacts-section,
 .Tech-Skills,
 .Soft-Skills {
@@ -202,6 +216,13 @@ body {
   font-weight: bold;
   font-size: 14px;
   line-height: 24px;
+
+  transition: color 250ms linear;
+}
+
+.contacts-section-link:hover,
+.contacts-section-link:focus{
+  color: #ffcd45;
 }
 
 .li-skills {
@@ -209,7 +230,7 @@ body {
 }
 
 .li-skills-item {
-  color: #dbad30;
+  color: #ffcd45;
 }
 
 .li-skills-item-text {
@@ -219,6 +240,7 @@ body {
   line-height: 24px;
   color: #38381c;
 }
+
 
 .in-the-process-of-studying {
   font-style: italic;
