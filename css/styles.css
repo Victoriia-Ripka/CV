@@ -14,7 +14,7 @@ body {
 
 .main-section {
   padding: 100px 90px 100px 90px;
-  background-image: linear-gradient( #fff 20%, #a9bf87);
+  /* background-image: linear-gradient( #fff 20%, #a9bf87); */
 }
 
 .about-me {
@@ -39,13 +39,13 @@ body {
   margin: 0 0 20px 0;
 }
 
-.about-me-decription {
+.summary-text {
   color: black;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  width: 400px;
+  width: 550px;
 }
 
 .main-title {
@@ -93,6 +93,15 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #000;
+}
+
+.my-project-description{
+  color: black;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    width: 530px;
 }
 
 .my-work-experience-section {
