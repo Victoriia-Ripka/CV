@@ -1,6 +1,7 @@
 body {
   background-color: #f5f7fa;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 1;
 }
 
 .main {
@@ -14,11 +15,10 @@ body {
 
 .main-section {
   padding: 100px 90px 100px 90px;
-  /* background-image: linear-gradient( #fff 20%, #a9bf87); */
 }
 
 .about-me {
-  margin: 0 0 40px 0;
+  margin: 0 0 35px 0;
 }
 
 .about-me-name {
@@ -36,7 +36,7 @@ body {
   font-style: normal;
   font-weight: bold;
   line-height: 17px;
-  margin: 0 0 20px 0;
+  margin: 0;
 }
 
 .summary-text {
@@ -46,6 +46,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   width: 550px;
+  margin: 0;
 }
 
 .main-title {
@@ -54,15 +55,17 @@ body {
   font-size: 22px;
   line-height: 27px;
   color: black;
-  margin-bottom: 10px;
+  margin: 0 0 10px 0;
 }
 
 .my-project-section {
-  padding: 0 0 10px 0;
+  margin: 0 0 10px 0;
 }
 
 .my-project-list {
-  padding: 0 0 0 22px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .my-project-item {
@@ -141,6 +144,7 @@ body {
 }
 
 .my-work-experience-duties {
+  margin: 10px 0;
   padding: 0 0 0 18px;
 }
 
@@ -152,7 +156,7 @@ body {
 }
 
 .my-work-experience-post {
-  margin: 0 15px 0 0;
+  margin: 0 0 15px 0;
 }
 
 .my-work-experience-item:first-child{
@@ -174,7 +178,7 @@ body {
 }
 
 .my-education-speciality {
-  margin-top: 10px;
+  margin-top: 7px;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -184,7 +188,7 @@ body {
 }
 
 .my-education-time {
-  margin-top: 10px;
+  margin-top: 7px;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -225,6 +229,7 @@ body {
   line-height: 27px;
   color: #38381c;
   margin-bottom: 8px;
+  margin: 0;
 }
 
 .contacts-list{
