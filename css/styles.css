@@ -122,6 +122,27 @@ body {
     width: 530px;
 }
 
+.my-project-show-btn{
+  background-color: transparent;
+  border: 1px solid var(--liver);
+  color: var(--wine);
+  padding: 5px 10px;
+  border-radius: 5px;
+  height: 40px;
+  width: 180px;
+  margin: 25px 0 25px 0;
+  cursor: pointer;
+
+  transition: 0.3s all ease;
+}
+
+.my-project-show-btn:hover,
+.my-project-show-btn:focus{
+  background-color: #602B39;
+  color: white;
+  border: 1px solid transparent;
+}
+
 .my-work-experience-section {
   margin: 0 0 50px 0;
 }
@@ -303,4 +324,13 @@ body {
 
 .aim {
   font-weight: bold;
+}
+
+
+.hidden {
+  display: none;
+}
+
+.shown {
+  display: block;
 }
