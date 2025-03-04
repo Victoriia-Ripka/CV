@@ -1,5 +1,15 @@
+:root {
+  --wine: #602B39;
+  --taupe-gray: #a6a4ad; /*  #807D88 */
+  --liver: #3c3a39 ;   /*#63473A*/
+  --cordovan: #bc454a ; /* #9B3F43 */
+  --french-gray: #f5f7fa;
+
+  --gray: #595959;
+}
+
 body {
-  background-color: #f5f7fa;
+  background-color: var(--french-gray);
   font-family: 'Montserrat', sans-serif;
   font-weight: 1;
 }
@@ -78,7 +88,7 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: var(--gray);
 }
 
 .my-project-text {
@@ -86,7 +96,7 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: var(--gray);
   margin: 0 0 0 5px;
 }
 
@@ -140,7 +150,7 @@ body {
 }
 
 .my-work-experience-company {
-  color: #dbad30;
+  color: var(--cordovan) ; /*  #dbad30 */
 }
 
 .my-work-experience-duties {
@@ -173,7 +183,7 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  color: #dbad30;
+  color: var(--cordovan) ;  /*  #dbad30 */
   margin-bottom: 0px;
 }
 
@@ -198,9 +208,16 @@ body {
 }
 
 .sidebar-section {
-  background-color: #a9bf87;
+  background-color: var(--taupe-gray); /* #a9bf87 */
   width: 370px;
   padding: 40px;
+}
+
+.hero{
+  width: 331px;
+  height: 317px;
+  object-fit: cover;
+  object-position: top;
 }
 
 .visually-hidden {
@@ -227,7 +244,7 @@ body {
   font-weight: bold;
   font-size: 22px;
   line-height: 27px;
-  color: #38381c;
+  color: var(--liver); /*#38381c*/
   margin-bottom: 8px;
   margin: 0;
 }
@@ -242,12 +259,12 @@ body {
   font-weight: bold;
   font-size: 14px;
   line-height: 24px;
-  color: #38381c;
+  color: var(--liver); /*#38381c*/
   margin-right: 5px;
 }
 
 .contacts-section-link {
-  color: #38381c;
+  color: var(--liver); /*#38381c*/
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -274,9 +291,8 @@ body {
   font-weight: bolder;
   font-size: 14px;
   line-height: 24px;
-  color: #38381c;
+  color: var(--liver); /*#38381c*/
 }
-
 
 .in-the-process-of-studying {
   font-style: italic;
