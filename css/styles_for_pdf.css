@@ -10,8 +10,9 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  min-height: 100vh; 
+  min-height: 100vh; /* full height page */
 }
+
 
 a{
   text-decoration: none;
@@ -48,7 +49,8 @@ header {
   max-width: 900px;
   display: flex;
   position: relative;
-  justify-content: space-between;
+  gap: 250px;
+  /* justify-content: space-between; */
   align-items: center;
 }
 
@@ -86,15 +88,11 @@ h1 {
   width: 100%;
   font-size: 18px;
   line-height: 1.3;
+  transition: color 0.3s ease;
 }
 
-a,
-button {
-  transition: all 0.3s ease;
-}
-
-a:hover,
-a:focus {
+.header__link-list a:hover,
+.header__link-list a:focus {
   color: var(--jonquil);
 }
 
@@ -107,7 +105,8 @@ main{
 
 .main__cont{
   position: static;;
-  width: 900px;
+  width: 850px;
+  height: 1030px;
   display: flex;
   flex: 1;
   align-items: stretch;
@@ -115,8 +114,8 @@ main{
 }
 
 .column{
-  width: 600px;
-  flex: 0 0 600px;
+  width: 520px;
+  flex: 0 0 620px;
 }
 
 .column:first-child{
@@ -124,12 +123,13 @@ main{
   flex: 0 0 300px;
 }
 
-.w560 {
-  width: 560px;
-}
 
 section{
   padding: 20px;
+}
+
+.w520 {
+  width: 550px;
 }
 
 .border-left{
@@ -197,7 +197,7 @@ section{
 }
 
 .work-experience-duties{
-  padding: 0 0 0 24px;
+  padding: 0 0 0 16px;
   margin: 10px 0 0 0;
   font-family: "Funnel Display", sans-serif;
   font-size: 18px;
@@ -210,7 +210,7 @@ section{
 .project-list{
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
   padding: 0 0 0 16px;
   font-size: 18px;
 }
@@ -219,15 +219,11 @@ section{
   font-size: 20px;
   font-weight: 500;
   line-height: 1.3;
+  /* color: var(--wenge); */
   margin-bottom: 5px;
   font-family: "Funnel Display", sans-serif;
 
   transition: color 250ms linear;
-}
-
-.project-bracket{
-  font-family: 'Funnel Display';
-  font-weight: 900;
 }
 
 .project-tools{
@@ -235,34 +231,17 @@ section{
   font-size: 12px;
   line-height: 1.1;
   margin-bottom: 5px;
+  font-weight: 600;
 }
 
 .project-description{
-  margin-bottom: 5px;
   font-family: "Funnel Display", sans-serif;
 }
 
-.project-show-btn{
-  border-color: var(--wenge);
-  color: var(--wenge);
-  background-color: var(--antiflash-white);
-  height: 60px;
-  width: 50%;
-  margin: 0 auto;
-  font-family: "Funnel Display", sans-serif;
-  font-size: 20px;
-  line-height: 1;
-  border-radius: 15px;
-  cursor: pointer;
 
-  transition: all 0.3s ease;
-
-}
-
-.project-show-btn:hover,
-.project-show-btn:focus{
-  color: var(--antiflash-white);
-  background-color: var(--jonquil);
+.contacts-section-link:hover,
+.contacts-section-link:focus {
+  color: var(--jonquil);
 }
 
 .visually-hidden {
@@ -278,6 +257,47 @@ section{
   margin: -1px;
 }
 
+
+
+
+
+.contacts-section-type {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--liver); /*#38381c*/
+  margin-right: 5px;
+}
+
+
+
+.li-skills {
+  padding: 0 0 0 17px;
+}
+
+.li-skills-item {
+  color: #ffcd45;
+}
+
+.li-skills-item-text {
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--liver); /*#38381c*/
+}
+
+.in-the-process-of-studying {
+  font-style: italic;
+  font-weight: bolder;
+  color: #808f58;
+  font-size: 14px;
+}
+
+.aim {
+  font-weight: bold;
+}
+
 .hidden {
   display: none;
 }
@@ -290,7 +310,7 @@ footer{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 30px 0 50px;
+  padding: 5px 0 20px;
 
   font-family: "DM Serif Text", sans-serif;
   font-size: 20px;
