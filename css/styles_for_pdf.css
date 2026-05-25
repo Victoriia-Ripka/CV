@@ -114,8 +114,10 @@ main{
 }
 
 .column{
-  width: 520px;
-  flex: 0 0 620px;
+  width: 600px;
+  flex: 0 0 600px;
+  /* width: 520px;
+  flex: 0 0 620px; */
 }
 
 .column:first-child{

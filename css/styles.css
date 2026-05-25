@@ -120,8 +120,8 @@ main{
 }
 
 .column:first-child{
-  width: 300px;
-  flex: 0 0 300px;
+  width: 310px;
+  flex: 0 0 310px;
 }
 
 .w560 {
@@ -141,8 +141,8 @@ section{
 }
 
 .hero {
-  width: 300px;
-  height: 300px;
+  width: 310px;
+  height: 310px;
   object-fit: cover;
   object-position: top;
 }
@@ -193,7 +193,7 @@ section{
 
 .lang-item-text span {
   font-weight: 700;
-  display: block;
+  /* display: block; */
 }
 
 .work-experience-duties{
